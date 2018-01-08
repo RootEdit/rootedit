@@ -1,13 +1,25 @@
 {
     "name": "rootedit/rootedit",
-    "autoload": {
-        "psr-4": {"": "src/"}
-    },
-    "version": "0.0.1",
+    "description": "PHP micro-framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Romain Flacher",
+            "email": "romain@rootedit.com"
+        }
+    ],
     "require" :{ 
         "psr/log":"1.0.2",
         "psr/container":"1.0.0",
         "psr/http-message":"1.0.1"
-    }
+    },
+    "autoload": {
+        "psr-4": {"": "src/"}
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.x-dev"
+        }
+}
     
 }
