@@ -18,11 +18,14 @@
     "autoload": {
         "psr-4": {"": "src/"}
     },
-    "minimum-stability": "beta",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
         "optimize-autoloader": true
-
     }
-    
 }
