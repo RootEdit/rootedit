@@ -1,6 +1,8 @@
 {
     "name": "rootedit/rootedit",
     "description": "PHP micro-framework",
+    "keywords": ["microframework"],
+    "homepage": "http://rootedit.com",
     "license": "MIT",
     "authors": [
         {
@@ -8,7 +10,7 @@
             "email": "romain@rootedit.com"
         }
     ],
-    "require" :{ 
+    "require" :{
         "psr/log":"1.0.2",
         "psr/container":"1.0.0",
         "psr/http-message":"1.0.1"
@@ -16,10 +18,11 @@
     "autoload": {
         "psr-4": {"": "src/"}
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "0.0.x"
-        }
-}
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "config": {
+        "optimize-autoloader": true
+
+    }
     
 }
