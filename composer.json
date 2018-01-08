@@ -3,9 +3,9 @@
     "autoload": {
         "psr-4": {"": "src/"}
     },
-    "repositories": [
+    "dist": 
         { "type": "gitlab", "url": "https://gitlab.com/tooy/RootEdit.git" }
-    ],
+    ,
     "version": "0.0.1",
 
     "require" :{ 
